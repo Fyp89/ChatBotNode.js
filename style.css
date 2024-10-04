@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    border-top: 5px solid #e5e5e5;
+    color: #272727;
+    overflow-x: hidden;
+    font-size: large;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI,
+        Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+        sans-serif;
+}
+
+a:focus {
+    outline: none;
+}
+
+.layout-wrapper {
+    width: 60%;
+    height: 100%;
+    max-width: 1050px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.layout-wrapper h1 {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.col-btn {
+    /* width: 50%; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #7964FF;
+    border-color: white;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 1000;
+}
+
+button:disabled {
+    opacity: 50%;    
+}
+
+#result {
+    font-size: large;
+}
+
+textarea {
+    width: 80%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rewrite-summary, #copy-text, #copy-message{
+    visibility: hidden;
+}
+
+#copy-message{
+    text-align: center;
+    margin: 0 auto;
+}
